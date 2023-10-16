@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.left-section {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.form input {
+  width: 300px;
+  height: 40px;
+}
+
+.right-section {
+  display: flex;
+  margin-right: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.header-input {
+  padding-left: -100px;
+}
+
+#logo {
+  width: 40px;
+
+  height: 40px;
+  margin: 10px 10px;
+}
+#img-maroc {
+  width: 15px;
+  height: 15px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+#shopping-cart {
+  transition: 0.3s;
+}
+hr {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 5px;
+}
+#shopping-cart:hover {
+  color: rgba(7, 6, 7, 0.333);
+  width: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+/* main*/
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "left_section right_section";
+  gap: 10px;
+}
+.section {
+  background-color: rgba(0, 0, 0, 0.103);
+}
+.left_section {
+  grid-area: left_section;
+}
+.right-section {
+  grid-area: right_section;
+}
+.box {
+  background-color: aquamarine;
+}
+.parts1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-left: 15px;
+  align-items: center;
+  background-color: white;
+  border: black solid 2px;
+  border-radius: 5px;
+}
+.image_validation {
+  background-color: green;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}
+.void {
+  background-color: rgba(0, 0, 0, 0.174);
+  height: 100px;
+  width: 100px;
+}
+.descriptionz {
+  display: flex;
+}
+.span {
+  display: flex;
+  margin-top: 40px;
+}
+.span1 {
+  background-color: orange;
+  width: 20px;
+  display: flex;
+  height: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.span2 {
+  background-color: orange;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.parts2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+#one-four {
+  padding-left: 40px;
+}
+#infromation {
+  padding-right: 20px;
+}
