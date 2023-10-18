@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.046);
+}
+.left-section {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.right-section {
+  display: flex;
+  margin-right: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.satr1 {
+  display: flex;
+}
+
+#logo {
+  width: 55px;
+
+  height: 44px;
+  margin: 10px 10px;
+}
+#img-maroc {
+  width: 15px;
+  height: 15px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+  margin-right: 20px;
+}
+#shopping-cart {
+  transition: 0.3s;
+}
+hr {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 5px;
+}
+#shopping-cart:hover {
+  color: rgba(7, 6, 7, 0.333);
+  width: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
