@@ -206,7 +206,124 @@ footer span {
   color: rgba(250, 235, 215, 0.637);
   padding-top: 20px;
 }
+.cart-item {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+.cart-item img {
+  width: 30%;
+}
 .threepoint div {
   background-color: rgba(0, 0, 0, 0.158);
   border-radius: 50%;
+}
+
+/* icon side bar */
+.botton {
+  display: none;
+  flex-direction: column;
+  width: 30px;
+  height: 30px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.botton span {
+  background-color: black;
+  height: 4px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.amazon {
+  display: none;
+}
+@media screen and (max-width: 500px) {
+  .botton {
+    display: flex;
+    margin-left: 15px;
+    position: static;
+  }
+  .exit {
+    display: flex;
+    color: aliceblue;
+  }
+  .right-section > ul:hover .botton {
+    display: flex;
+  }
+
+  .form input {
+    width: 160px;
+    height: 25px;
+    margin-left: -4px;
+  }
+  .right-section > ul {
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: calc(100% - 70px);
+    position: fixed;
+    left: 10px;
+    top: 20px;
+    background-color: #060605f2;
+    color: white;
+    transition: 0.3s;
+  }
+  .right-section > ul li {
+    padding-bottom: 20px;
+    border-bottom: rgba(26, 6, 69, 0.863) solid 2px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+
+  .botton:hover {
+    display: flex;
+  }
+  #navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background-color: white;
+    border: 1px rgba(0, 0, 0, 0.285) solid;
+  }
+  .part1 {
+    width: 90%;
+    margin: 32px 9px;
+    padding-left: 20px;
+  }
+  .part2 {
+    width: 90%;
+    margin: 32px 9px;
+    padding-left: 20px;
+  }
+  .description {
+    padding-left: 20px;
+    width: 90%;
+    margin: 32px 9px;
+  }
+  .contenair {
+    display: block;
+  }
+  .amazon {
+    display: flex;
+    color: beige;
+  }
+  li {
+    color: rgb(9, 9, 9);
+    transition: 0.3s;
+  }
+  li:hover {
+    background-color: rgba(137, 43, 226, 0.313);
+  }
+  li a {
+    color: aliceblue;
+    transition: 0.3s;
+  }
+  li a:hover {
+    padding-left: 15px;
+    background-color: rgba(137, 43, 226, 0.313);
+  }
 }

@@ -104,7 +104,7 @@ main {
 .conten {
   grid-area: content;
   display: flex;
-  gap: 36px;
+  gap: 42px;
   flex-wrap: wrap;
 }
 .nav div {
