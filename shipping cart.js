@@ -1,6 +1,8 @@
-function show() {
-  document.getElementsByClassName("sidebar")[0].style.display = "flex";
+function aficherSho() {
+  document
+    .getElementsByClassName("shopping_cart")[0]
+    .classList.toggle("hidden");
 }
-function hid() {
-  document.getElementsByClassName("sidebar")[0].style.display = "none";
+function show() {
+  document.getElementsByClassName("right-section")[0].classList.toggle("mask");
 }

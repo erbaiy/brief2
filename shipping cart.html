@@ -38,15 +38,9 @@
             </div></form
         ></a>
       </div>
-      <div class="right-section">
+      <div class="right-section mask">
         <ul class="siide">
-          <li onclick="hid()" class="exit">
-            <i class="fas fa-star yellow-star"> return </i>
-          </li>
-          <li>
-            <h2 class="amazon">amazon</h2>
-          </li>
-
+          <li style="font-size: x-large" class="amazon">Amazon</li>
           <li>
             <a href="">Sing In </a>
           </li>
@@ -60,80 +54,90 @@
             />MAR
           </li>
         </ul>
-        <div class="last_section">
-          <div class="icon-container">
-            <i class="fas fa-shopping-cart"> </i>
-            <nav class="cart" id="navbar">
-              <style>
-                .cart {
-                  background-color: #f5f5f5;
-                  padding: 10px;
-                }
+      </div>
+      <div class="last_section" onclick="aficherSho()">
+        <i class="fas fa-shopping-cart"> </i>
+      </div>
+      <div class="shopping_cart hidden">
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
 
-                .cart-item {
-                  display: flex;
-                  align-items: center;
-                  margin-bottom: 10px;
-                  gap: 10px;
-                }
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
 
-                .cart-item img {
-                  min-width: 100px;
-                  height: 100px;
-                  margin-right: 10px;
-                  transition: 0.3s;
-                }
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
 
-                .cart-item-name {
-                  font-weight: bold;
-                }
-                .paragraphe {
-                  font-size: small;
-                }
-
-                .cart-total {
-                  font-weight: bold;
-                  margin-top: 10px;
-                }
-                .star i {
-                  color: yellow;
-                }
-                .star {
-                  display: flex;
-                  gap: 5px;
-                }
-                .cart-item img:hover {
-                  width: 300px;
-                }
-              </style>
-
-              <div class="cart-item">
-                <img src="pexels-olena-bohovyk-1772123.jpg" alt="Product 1" />
-                <div class="cart-item-name">
-                  
-                  <div class="paragraphe">
-                    Dacoity Gaming Keyboard, 104 Keys All-Metal Panel, Rainbow
-                    LED Backlit Quiet, Wrist Rest, Multimedia Keys
-                  </div>
-                  <div class="star">
-                    <i class="fas fa-star yellow-star"></i>
-                    <i class="fas fa-star yellow-star"></i>
-                    <i class="fas fa-star yellow-star"></i>
-                    <i class="fas fa-star yellow-star"></i>
-                  </div>
-                </div>
-
-                <div class="price">
-                  <h1>price</h1>
-                  <p>$10.00</p>
-                </div>
-              </div>
-              
-                  
-                </div>
-              </div>
-              
-            </nav>
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
           </div>
         </div>
       </div>
@@ -147,7 +151,7 @@
         </div>
         <div id="colon">
           <div class="parts2-1">
-            <input type="checkbox">
+            <input type="checkbox" />
             <div class="void"></div>
             <div class="descriptionz">
               <div id="ifromation">
@@ -169,7 +173,7 @@
           </div>
           <div class="parts2-2">
             <div class="parts2-1">
-             <input type="checkbox">
+              <input type="checkbox" />
               <div class="void"></div>
               <div class="descriptionz">
                 <div id="ifromation">
@@ -192,7 +196,7 @@
           </div>
           <div class="parts2-3">
             <div class="parts2-1">
-              <input type="checkbox">
+              <input type="checkbox" />
               <div class="void"></div>
               <div class="descriptionz">
                 <div id="ifromation">
@@ -234,7 +238,6 @@
         </div>
         <p>payent mothods</p>
         <p>payball</p>
-         
       </div>
     </main>
     <div class="treepoint">
@@ -242,9 +245,8 @@
       <div></div>
       <div></div>
     </div>
-    
+
     <footer>
-    </h3>
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Support</a></li>
@@ -252,5 +254,6 @@
       </ul>
       <span>&copy; copy right 2023</span>
     </footer>
+    <script src="shipping cart.js"></script>
   </body>
 </html>

@@ -346,6 +346,7 @@ p {
   height: 30px;
   width: 90px;
 }
+
 .text_behind_image .div1 img {
   padding-left: 10px;
 }
@@ -433,27 +434,26 @@ p {
   background-color: black;
   margin-bottom: 3px;
 }
-header {
-  position: relative;
-}
+
 #navbar {
-  background-color: white;
+  background-color: orange;
   width: 50%;
-  height: 700px;
+  height: 800pxs;
   display: flex;
   transition: 0.3s;
   position: absolute;
   right: 0;
-  top: 100%;
-  display: none;
+  top: 80px;
+
   flex-wrap: wrap;
 }
 
 .cart-item {
   width: 100%;
+  background-color: white;
 }
 
-.amzon {
+.amazon {
   display: none;
 }
 
@@ -474,15 +474,15 @@ header {
   .cart-item {
     width: 100%;
     right: 0;
-    background-color: rgba(159, 156, 156, 0.155);
+    background-color: white;
   }
 
   #navbar {
     position: absolute;
-    top: 50px;
-    right: 5px;
-    width: 84%;
-    height: 400px;
+    top: 30px;
+    right: -16px;
+    width: 300px;
+    height: 500px;
   }
   header {
     padding: 15px;
@@ -494,6 +494,7 @@ header {
   }
   .last_section {
     display: flex;
+    position: relative;
   }
   .under-header {
     display: block;
@@ -550,7 +551,7 @@ header {
 }
 
 .cart {
-  background-color: #9d1010;
+  background-color: orange;
   padding: 10px;
 }
 
@@ -593,4 +594,7 @@ header {
 }
 .cart-item img:hover {
   width: 300px;
+}
+.delet {
+  display: none;
 }

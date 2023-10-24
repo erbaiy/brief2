@@ -17,45 +17,129 @@
   <body>
     <header>
       <section class="left-section">
-        <a href="indix.html">
-          <img
-            id="logo"
-            src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
-            alt="amazon logo"
-        /></a>
-
-        <form>
-          <div class="form">
-            <input
-              type="text"
-              placeholder="Chercher un produit,un marque ou ctegorie..."
-            />
-          </div>
-        </form>
+        <div class="botton" onclick="aficher()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <img
+          id="logo"
+          src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
+          alt="amazon logo"
+        />
+        <a href="product list page.html">
+          <form>
+            <div class="form">
+              <input
+                type="text"
+                placeholder="Chercher un produit,un marque ou ctegorie..."
+              />
+            </div>
+          </form>
+        </a>
       </section>
       <section class="right-section">
-        <ul>
-          <li>
-            <a href="">Sing In </a>
-          </li>
-          <li><a href="">Create acount </a></li>
+        <div class="side_bar">
+          <ul class="sidddde">
+            <li id="amazon">
+              <i><p style="color: white; margin-left: 20px">Amazon</p></i>
+            </li>
+            <li>
+              <a style="padding: 20px" ref="">Sing In </a>
+            </li>
+            <li><a style="padding-left: 20px" href="">Create acount </a></li>
 
-          <li>
-            <img
-              id="img-maroc"
-              src="https://th.bing.com/th/id/R.06d5e6dc9ed3accaf0a1fd6b525ca07e?rik=hMbAqL4%2bFL4MlA&pid=ImgRaw&r=0"
-              alt=""
-            />MAR
-          </li>
-          <li>
-            <i>
-              <a href="shipping cart.html">
-                <i class="fas fa-shopping-cart" id="shopping-cart"> </i
-              ></a>
-            </i>
-          </li>
-          <li>5</li>
-        </ul>
+            <li>
+              <img
+                id="img-maroc"
+                src="https://th.bing.com/th/id/R.06d5e6dc9ed3accaf0a1fd6b525ca07e?rik=hMbAqL4%2bFL4MlA&pid=ImgRaw&r=0"
+                alt=""
+              />MAR
+            </li>
+          </ul>
+        </div>
+        <div class="last_section">
+          <div class="icon-container">
+            <i id="sala" class="fas fa-shopping-cart"> </i>
+            <nav class="cartts" id="navbar">
+              <div class="cart-item">
+                <img
+                  id="produuit-foto"
+                  src="pexels-olena-bohovyk-1772123.jpg"
+                  alt="Product 1"
+                />
+                <div class="cart-item-name">
+                  Product 1
+                  <div class="paragraphe">
+                    Dacoity Gaming Keyboard, 104 Keys All-Metal Panel, Rainbow
+                    LED Backlit Quiet, Wrist Rest, Multimedia Keys
+                  </div>
+                  <div class="star">
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <h1>price</h1>
+                  <p>$10.00</p>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img
+                  id="produuit-foto"
+                  src="pexels-olena-bohovyk-1772123.jpg"
+                  alt="Product 1"
+                />
+                <div class="cart-item-name">
+                  Product 1
+                  <div class="paragraphe">
+                    Dacoity Gaming Keyboard, 104 Keys All-Metal Panel, Rainbow
+                    LED Backlit Quiet, Wrist Rest, Multimedia Keys
+                  </div>
+                  <div class="star">
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <h1>price</h1>
+                  <p>$10.00</p>
+                </div>
+              </div>
+              <div class="cart-item">
+                <img
+                  id="produuit-foto"
+                  src="pexels-olena-bohovyk-1772123.jpg"
+                  alt="Product 1"
+                />
+                <div class="cart-item-name">
+                  Product 1
+                  <div class="paragraphe">
+                    Dacoity Gaming Keyboard, 104 Keys All-Metal Panel, Rainbow
+                    LED Backlit Quiet, Wrist Rest, Multimedia Keys
+                  </div>
+                  <div class="star">
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                    <i class="fas fa-star yellow-star"></i>
+                  </div>
+                </div>
+
+                <div class="price">
+                  <h1>price</h1>
+                  <p>$10.00</p>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
       </section>
     </header>
     <!--cssssssssssssssssssss-->
@@ -64,7 +148,12 @@
     <main>
       <section class="up">
         <div class="image">
-          <img style="width: 100%" src="Rectangle 4.png" alt="" />
+          <img
+            class="under_header_image"
+            style="width: 100%"
+            src="Rectangle 4.png"
+            alt=""
+          />
           <div class="rectangle1">
             <div class="rectangle"></div>
             <div class="rectangle"></div>
@@ -98,6 +187,15 @@
             <div class="box">M</div>
           </div>
         </div>
+        <section class="color">
+          <h1>coolor</h1>
+          <div class="box2">
+            <div style="width: 60px; height: 60px" class="green"></div>
+            <div style="width: 60px; height: 60px" class="blue"></div>
+            <div style="width: 60px; height: 60px" class="withe"></div>
+            <div style="width: 60px; height: 60px" class="black"></div>
+          </div>
+        </section>
         <div
           style="
             margin: 0 7px;
@@ -200,15 +298,7 @@
           </div>
         </div>
       </section>
-      <section class="color">
-        <h1 style="padding-left: 439px">coolor</h1>
-        <div class="box2">
-          <div style="width: 60px; height: 60px" class="green"></div>
-          <div style="width: 60px; height: 60px" class="blue"></div>
-          <div style="width: 60px; height: 60px" class="withe"></div>
-          <div style="width: 60px; height: 60px" class="black"></div>
-        </div>
-      </section>
+
       <div class="paragraphe1">
         <div class="ktaba">
           <p>
@@ -253,7 +343,7 @@
             </p>
           </div>
           <div class="img">
-            <img style="width: 700px" src="Rectangle 4.png" alt="" />
+            <img id="img" src="Rectangle 4.png" alt="" />
           </div>
         </div>
       </div>
