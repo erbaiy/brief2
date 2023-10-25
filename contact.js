@@ -1,12 +1,9 @@
-function aficherSho() {
-  document
-    .getElementsByClassName("shopping_cart")[0]
-    .classList.toggle("hidden");
+function ossama() {
+  document.getElementsByClassName("siide")[0].classList.toggle("hid");
 }
-function show() {
-  document.getElementsByClassName("right-section")[0].classList.toggle("mask");
+function youness() {
+  document.getElementsByClassName("cart")[0].classList.toggle("suprimer");
 }
-
 let plus = document.getElementById("addToCart");
 let moin = document.getElementById("deletToCart");
 let conteur = document.getElementById("count");
@@ -21,9 +18,5 @@ moin.addEventListener("click", function () {
     Total.textContent -= Price.textContent;
   }
 });
-
 let Price = document.getElementById("price");
 let Total = document.getElementById("total");
-// plus.addEventListener("click", function () {
-//   Total.textContent = Total.textContent - -Price.textContent;
-// });
