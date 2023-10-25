@@ -435,7 +435,7 @@ p {
   margin-bottom: 3px;
 }
 
-#navbar {
+.cart {
   background-color: orange;
   width: 50%;
   height: 800pxs;
@@ -477,7 +477,7 @@ p {
     background-color: white;
   }
 
-  #navbar {
+  .cart {
     position: absolute;
     top: 30px;
     right: -16px;
@@ -596,5 +596,8 @@ p {
   width: 300px;
 }
 .delet {
+  display: none;
+}
+.aficherSid {
   display: none;
 }

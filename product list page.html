@@ -16,25 +16,31 @@
   </head>
   <body>
     <header>
-      <section class="left-section">
-        <a href="indix.html">
-        <img
-              id="logo"
-          src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
-          alt="amazon logo"
+      <div class="left-section">
+        <div class="botton" onclick="show()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <a href="index.html">
+          <img
+            id="logo"
+            src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
+            alt="amazon logo"
         /></a>
-
-        <form>
-          <div class="form">
-            <input
-              type="text"
-              placeholder="Chercher un produit,un marque ou ctegorie..."
-            />
-          </div>
-        </form>
-      </section>
-      <section class="right-section">
-        <ul>
+        <a href="product list page.html">
+          <form>
+            <div class="form">
+              <input
+                type="text"
+                placeholder="Chercher un produit,un marque ou ctegorie..."
+              />
+            </div></form
+        ></a>
+      </div>
+      <div class="right-section">
+        <ul class="siide hidin">
+          <li style="font-size: x-large" class="amazon">Amazon</li>
           <li>
             <a href="">Sing In </a>
           </li>
@@ -47,16 +53,94 @@
               alt=""
             />MAR
           </li>
-          <li>
-            <i>
-              <a href="shipping cart.html">
-                <i class="fas fa-shopping-cart" id="shopping-cart"> </i
-              ></a>
-            </i>
-          </li>
-          <li>5</li>
         </ul>
-      </section>
+      </div>
+      <div class="last_section">
+        <i onclick="delet()" class="fas fa-shopping-cart"> </i>
+      </div>
+      <div class="shopping_cart maske">
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
+          </div>
+        </div>
+        <div class="produit">
+          <div class="imagedeproduit">
+            <img
+              style="width: 100px; height: 100px"
+              id="produuit-foto"
+              src="pexels-olena-bohovyk-1772123.jpg"
+              alt="Product 1"
+            />
+          </div>
+          <div class="cart-item-name">
+            Product 1
+            <div class="paragraphe">
+              Dacoity Gaming Keyboard, 104 Keys All-Metal Panel
+            </div>
+            <div class="star">
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+              <i class="fas fa-star yellow-star"></i>
+            </div>
+          </div>
+
+          <div class="price">
+            <h1>price</h1>
+            <p>$10.00</p>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <div class="section head">
@@ -74,15 +158,14 @@
       </div>
       <div class="section nav">
         <p style="padding: 20px">Marque</p>
-        <div>
-         <input type="checkbox">Logitech G</div>
-        <div> <input type="checkbox">Logitech G</div>
-         <div><input type="checkbox">Logitech G</div>
+        <div><input type="checkbox" />Logitech G</div>
+        <div><input type="checkbox" />Logitech G</div>
+        <div><input type="checkbox" />Logitech G</div>
         <p style="padding: 20px">Shipping</p>
-        
-        <div><input type="checkbox">Logitech G</div>
-        <div><input type="checkbox">Logitech G</div>
-        <div><input type="checkbox">Logitech G</div>
+
+        <div><input type="checkbox" />Logitech G</div>
+        <div><input type="checkbox" />Logitech G</div>
+        <div><input type="checkbox" />Logitech G</div>
         <p style="padding: 20px">Price</p>
         <div>
           <div></div>
@@ -90,211 +173,191 @@
         <p style="margin: 5px 30px">870</p>
         <p style="margin: 5px 0" id="p8500">8500</p>
       </div>
-      
-        <div class="section conten">
-            
 
-                <div class="product1">
-                
-                <div class="discription">
-                    <img class="best_product_img" src="clavier.png" alt="" />
-                </div>
-                    <h1>$1200</h1>
-                    <h2>$1600</h2>
-                  <p>Hello world,hello aziz,hello me</p>
-                  <p>Hello world,hello aziz,hello me</p>
-                  <div class="last">
-                 <div id="icon">
-                      <img src="Star.png" alt="" />
-                      <p>5.O</p>
-                 </div>
-                 <p>Solde 120</p>
-                 <div class="icon2">
-                    <img src="shoppin.png" alt="">
-                 </div>
-                </div>
-                </div>
-                <div class="product1">
-                
-                    <div class="discription">
-                        <img class="best_product_img" src="clavier.png" alt="" />
-                    </div>
-                        <h1>$1200</h1>
-                        <h2>$1600</h2>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <div class="last">
-                     <div id="icon">
-                          <img src="Star.png" alt="" />
-                          <p>5.O</p>
-                     </div>
-                     <p>Solde 120</p>
-                     <div class="icon2">
-                        <img src="shoppin.png" alt="">
-                     </div>
-                    </div>
-                    </div>
-                    <div class="product1">
-                
-                        <div class="discription">
-                            <img class="best_product_img" src="clavier.png" alt="" />
-                        </div>
-                            <h1>$1200</h1>
-                            <h2>$1600</h2>
-                          <p>Hello world,hello aziz,hello me</p>
-                          <p>Hello world,hello aziz,hello me</p>
-                          <div class="last">
-                         <div id="icon">
-                              <img src="Star.png" alt="" />
-                              <p>5.O</p>
-                         </div>
-                         <p>Solde 120</p>
-                         <div class="icon2">
-                            <img src="shoppin.png" alt="">
-                         </div>
-                        </div>
-                        </div>
-                        <div class="product1">
-                
-                            <div class="discription">
-                                <img class="best_product_img" src="clavier.png" alt="" />
-                            </div>
-                                <h1>$1200</h1>
-                                <h2>$1600</h2>
-                              <p>Hello world,hello aziz,hello me</p>
-                              <p>Hello world,hello aziz,hello me</p>
-                              <div class="last">
-                             <div id="icon">
-                                  <img src="Star.png" alt="" />
-                                  <p>5.O</p>
-                             </div>
-                             <p>Solde 120</p>
-                             <div class="icon2">
-                                <img src="shoppin.png" alt="">
-                             </div>
-                            </div>
-                            </div>
-                            <div class="product1">
-                
-                                <div class="discription">
-                                    <img class="best_product_img" src="clavier.png" alt="" />
-                                </div>
-                                    <h1>$1200</h1>
-                                    <h2>$1600</h2>
-                                  <p>Hello world,hello aziz,hello me</p>
-                                  <p>Hello world,hello aziz,hello me</p>
-                                  <div class="last">
-                                 <div id="icon">
-                                      <img src="Star.png" alt="" />
-                                      <p>5.O</p>
-                                 </div>
-                                 <p>Solde 120</p>
-                                 <div class="icon2">
-                                    <img src="shoppin.png" alt="">
-                                 </div>
-                                </div>
-                                </div>
-                                <div class="product1">
-                
-                                    <div class="discription">
-                                        <img class="best_product_img" src="clavier.png" alt="" />
-                                    </div>
-                                        <h1>$1200</h1>
-                                        <h2>$1600</h2>
-                                      <p>Hello world,hello aziz,hello me</p>
-                                      <p>Hello world,hello aziz,hello me</p>
-                                      <div class="last">
-                                     <div id="icon">
-                                          <img src="Star.png" alt="" />
-                                          <p>5.O</p>
-                                     </div>
-                                     <p>Solde 120</p>
-                                     <div class="icon2">
-                                        <img src="shoppin.png" alt="">
-                                     </div>
-                                    </div>
-                                    </div>
-                                    <div class="product1">
-                
-                                        <div class="discription">
-                                            <img class="best_product_img" src="clavier.png" alt="" />
-                                        </div>
-                                            <h1>$1200</h1>
-                                            <h2>$1600</h2>
-                                          <p>Hello world,hello aziz,hello me</p>
-                                          <p>Hello world,hello aziz,hello me</p>
-                                          <div class="last">
-                                         <div id="icon">
-                                              <img src="Star.png" alt="" />
-                                              <p>5.O</p>
-                                         </div>
-                                         <p>Solde 120</p>
-                                         <div class="icon2">
-                                            <img src="shoppin.png" alt="">
-                                         </div>
-                                        </div>
-                                        </div>
-                
-                <div class="product1">
-                
-                    <div class="discription">
-                        <img class="best_product_img" src="clavier.png" alt="" />
-                    </div>
-                        <h1>$1200</h1>
-                        <h2>$1600</h2>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <div class="last">
-                     <div id="icon">
-                          <img src="Star.png" alt="" />
-                          <p>5.O</p>
-                     </div>
-                     <p>Solde 120</p>
-                     <div class="icon2">
-                        <img src="shoppin.png" alt="">
-                     </div>
-                    </div>
-                    </div>
-                    
-                <div class="product1">
-                
-                    <div class="discription">
-                        <img class="best_product_img" src="clavier.png" alt="" />
-                    </div>
-                        <h1>$1200</h1>
-                        <h2>$1600</h2>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <p>Hello world,hello aziz,hello me</p>
-                      <div class="last">
-                     <div id="icon">
-                          <img src="Star.png" alt="" />
-                          <p>5.O</p>
-                     </div>
-                     <p>Solde 120</p>
-                     <div class="icon2">
-                        <img src="shoppin.png" alt="">
-                     </div>
-                    </div>
-                    </div>
-                    
-                    
-                    
-                
+      <div class="section conten">
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
         </div>
-    
-        
-        
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="product1">
+          <div class="discription">
+            <img class="best_product_img" src="clavier.png" alt="" />
+          </div>
+          <h1>$1200</h1>
+          <h2>$1600</h2>
+          <p>Hello world,hello aziz,hello me</p>
+          <p>Hello world,hello aziz,hello me</p>
+          <div class="last">
+            <div id="icon">
+              <img src="Star.png" alt="" />
+              <p>5.O</p>
+            </div>
+            <p>Solde 120</p>
+            <div class="icon2">
+              <img src="shoppin.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Support</a></li>
-          <li><a href="#">FQE</a></li>
-        </ul>
-        <span>&copy; copy right 2023</span>
-      </footer>
-    </body>
-  </html>
-  
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">FQE</a></li>
+      </ul>
+      <span>&copy; copy right 2023</span>
+    </footer>
+    <script src="product_list.js"></script>
   </body>
 </html>

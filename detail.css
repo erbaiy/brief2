@@ -284,14 +284,16 @@ header {
   right: 0;
   top: 40px;
   width: 60%;
-  background-color: white;
-  gap: 20px;
+  height: 600px;
+  background-color: orange;
+  gap: 10px;
   display: flex;
   flex-wrap: wrap;
+  font-size: x-small;
 }
 .cart-item {
   display: flex;
-  background-color: #ffe50033;
+  background-color: white;
   margin: 10px 5px;
   width: 100%;
   padding: 20px;
@@ -397,7 +399,7 @@ header {
   .side_bar {
     background-color: black;
     width: 200px;
-    display: none;
+    display: flex;
     flex-wrap: wrap;
 
     height: 400px;
@@ -481,7 +483,7 @@ header {
   .color h1 {
     padding: 10px 20px;
   }
-  .hidden {
+  .return {
     display: none;
   }
 }
@@ -494,4 +496,7 @@ header {
 }
 footer {
   margin: 20px;
+}
+.hidden {
+  display: none;
 }
