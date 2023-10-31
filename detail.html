@@ -22,11 +22,13 @@
           <span></span>
           <span></span>
         </div>
-        <img
-          id="logo"
-          src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
-          alt="amazon logo"
-        />
+
+        <a href="index.html">
+          <img
+            id="logo"
+            src="https://bock-drauf.com/wp-content/uploads/2019/09/amazon-logo.png"
+            alt="amazon logo"
+        /></a>
         <a href="product list page.html">
           <form>
             <div class="form">
@@ -56,6 +58,10 @@
                 alt=""
               />MAR
             </li>
+            <li>
+              <a href="shipping cart.html"><button>Cart</button></a>
+            </li>
+        
           </ul>
         </div>
         <div class="last_section">
@@ -83,13 +89,13 @@
                 </div>
 
                 <div style="display: flex">
-                  <button id="addToCart">+</button>
-                  <p id="count">0</p>
-                  <button id="deletToCart">-</button>
+                  <button class="addToCart">+</button>
+                  <p class="count">0</p>
+                  <button class="deletToCart">-</button>
                 </div>
-                <div class="price">
+                <div class="pricee">
                   <p>price by:($)</p>
-                  <p id="price">10</p>
+                  <p class="price">10</p>
                 </div>
               </div>
               <div class="cart-item">
@@ -113,13 +119,13 @@
                 </div>
 
                 <div style="display: flex">
-                  <button id="addToCart">+</button>
-                  <p id="count">0</p>
-                  <button id="deletToCart">-</button>
+                  <button class="addToCart">+</button>
+                  <p class="count">0</p>
+                  <button class="deletToCart">-</button>
                 </div>
-                <div class="price">
+                <div class="pricee">
                   <p>price by:($)</p>
-                  <p id="price">10</p>
+                  <p class="price">10</p>
                 </div>
               </div>
               <div class="cart-item">
@@ -143,18 +149,18 @@
                 </div>
 
                 <div style="display: flex">
-                  <button id="addToCart">+</button>
-                  <p id="count">0</p>
-                  <button id="deletToCart">-</button>
+                  <button class="addToCart">+</button>
+                  <p class="count">0</p>
+                  <button class="deletToCart">-</button>
                 </div>
-                <div class="price">
+                <div class="pricee">
                   <p>price by:($)</p>
-                  <p id="price">10</p>
+                  <p class="price">10</p>
                 </div>
               </div>
-              <div class="total">
+              <div class="totall">
                 <p>Total by ($)</p>
-                <p id="total">0</p>
+                <p class="total">0</p>
               </div>
             </nav>
           </div>
@@ -258,7 +264,7 @@
                 >+</span
               >
             </div>
-            <button>add to cart</button>
+            <button class="button">add to cart</button>
             <a
               style="
                 display: block;
@@ -339,7 +345,7 @@
           </p>
         </div>
         <div style="display: flex" class="par_img">
-          <div class="para">
+          <div style="flex: 1" class="para">
             <p>
               Le short peut être polyvalent, adapté à diverses occasions. Il
               peut être porté lors de promenades décontractées en ville, de
@@ -361,8 +367,13 @@
               rester à l'aise et au frais tout au long vde la journée.
             </p>
           </div>
-          <div class="img">
-            <img id="img" src="Rectangle 4.png" alt="" />
+          <div style="flex: 1" class="img">
+            <img
+              style="max-width: 100%"
+              id="img"
+              src="Rectangle 4.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -590,6 +601,7 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Support</a></li>
         <li><a href="#">FQE</a></li>
+        <li><a href="contac.html">Contact us</a></li>
       </ul>
       <span>&copy; copy right 2023</span>
     </footer>

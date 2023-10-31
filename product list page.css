@@ -6,12 +6,13 @@
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  padding: 10px;
 }
 .left-section {
-  justify-content: space-between;
-  align-items: center;
   display: flex;
+  align-items: center;
 }
 .form input {
   width: 300px;
@@ -20,8 +21,8 @@ header {
 
 .right-section {
   display: flex;
-  margin-right: 0;
-  justify-content: space-evenly;
+  margin-right: 10px;
+  justify-content: flex-end;
   align-items: center;
 }
 .header-input {

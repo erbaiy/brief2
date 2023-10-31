@@ -4,9 +4,11 @@ function show() {
 function delet() {
   document.getElementsByClassName("shopping_cart")[0].classList.toggle("maske");
 }
-let plus = document.getElementById("addToCart");
-let moin = document.getElementById("deletToCart");
-let conteur = document.getElementById("count");
+let plus = document.getElementsByClassName("addToCart")[0];
+let moin = document.getElementsByClassName("deletToCart")[0];
+let conteur = document.getElementsByClassName("count")[0];
+let Price = document.getElementById("price");
+let Total = document.getElementById("total");
 
 plus.addEventListener("click", function () {
   conteur.textContent++;
@@ -18,5 +20,3 @@ moin.addEventListener("click", function () {
     Total.textContent -= Price.textContent;
   }
 });
-let Price = document.getElementById("price");
-let Total = document.getElementById("total");

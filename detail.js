@@ -4,19 +4,21 @@ function show() {
 function aficher() {
   document.getElementsByClassName("side_bar")[0].classList.toggle("return");
 }
-let plus = document.getElementById("addToCart");
-let moin = document.getElementById("deletToCart");
-let conteur = document.getElementById("count");
+let plus = document.getElementsByClassName("addToCart");
+let moin = document.getElementsByClassName("deletToCart");
+let conteur = document.getElementsByClassName("count");
+let Price = document.getElementsByClassName("price");
+let Total = document.getElementsByClassName("total")[0];
 
-plus.addEventListener("click", function () {
-  conteur.textContent++;
-  Total.textContent = Total.textContent - -Price.textContent;
-});
-moin.addEventListener("click", function () {
-  if (conteur.textContent > 0 && Total.textContent > 0) {
-    conteur.textContent--;
-    Total.textContent -= Price.textContent;
-  }
-});
-let Price = document.getElementById("price");
-let Total = document.getElementById("total");
+for (let i = 0; i < 3; i++) {
+  plus[i].addEventListener("click", function () {
+    conteur[i].textContent++;
+    Total.textContent -= -Price[i].textContent;
+  });
+  moin[i].addEventListener("click", function () {
+    if (conteur[i].textContent > 0 && Total.textContent > 0) {
+      conteur[i].textContent--;
+      Total.textContent -= Price[i].textContent;
+    }
+  });
+}

@@ -20,11 +20,21 @@ header {
   height: 40px;
 }
 
+/* .right-section {
+  display: flex;
+  margin-right: 0;
+  justify-content: space-evenly;
+  align-items: center;
+} */
 .right-section {
   display: flex;
   margin-right: 0;
   justify-content: space-evenly;
   align-items: center;
+  justify-content: normal;
+  position: absolute;
+  top: 37px;
+  right: 116px;
 }
 .header-input {
   padding-left: -100px;

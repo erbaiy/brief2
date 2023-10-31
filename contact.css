@@ -84,6 +84,9 @@ label {
 input {
   width: 100%;
 }
+.siide {
+  display: flex;
+}
 label {
   margin-bottom: -13px;
 }
@@ -217,10 +220,13 @@ label {
     padding-left: 15px;
     background-color: rgba(137, 43, 226, 0.313);
   }
+  /* .hid {
+    display: flex;
+  } */
 }
-.hid {
-  display: none !important;
-}
+/* .hid {
+  display: flex;
+} */
 footer {
   background-color: rgb(48, 45, 51);
   color: beige;
