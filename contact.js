@@ -1,17 +1,10 @@
-// function ossama() {
-//   document.getElementsByClassName("siide")[0].classList.toggle("hid");
-// }
-// function youness() {
-//   document.getElementsByClassName("cart")[0].classList.toggle("suprimer");
-// }
-// function show() {
-  let siide = document.getElementsByClassName("siide");
-  if (siide.style.dislay === "none") {
-    siide.style.dislay = "flex";
-  } else {
-    siide.style.dislay = "none";
-  }
+function ossama() {
+  document.getElementsByClassName("siide")[0].classList.toggle("hid");
 }
+function youness() {
+  document.getElementsByClassName("cart")[0].classList.toggle("suprimer");
+}
+
 let plus = document.getElementById("addToCart");
 let moin = document.getElementById("deletToCart");
 let conteur = document.getElementById("count");
